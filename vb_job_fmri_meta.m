@@ -3,7 +3,7 @@ function vb_job_fmri_meta(varargin)
 % Support SPM earlier than spm8, tested with spm8  
 %
 % [Syntax]
-%    vb_job_fmri(proj_root, fmri_parm);
+%    vb_job_fmri_meta(proj_root, fmri_parm);
 %    vb_job_frmi(fmri_parm);
 %
 % [Input]
@@ -15,7 +15,7 @@ function vb_job_fmri_meta(varargin)
 %
 % [History]
 %   2020/10/09 k_suzuki
-%     [Change] modification for meta-analysis fMRI data
+%     [Change] clone function and modification for meta-analysis fMRI data
 %   2016/11/21 rhayashi
 %     [Change] spec of SPMmapmode changed more clearly e.g. 'mni' -> 'mni2subj'
 %   2016/07/26 O.Yamahista
