@@ -58,13 +58,13 @@ proj_root = vb_rm_trailing_slash(proj_root);
 
 % PARAMETERS
 % SPM results
-SPMmat_file = parm.SPMmat_file;
+% SPMmat_file = parm.SPMmat_file;
 brain_file  = fullfile(proj_root, parm.brain_file);
 
 % Resutls output 
 act_file    = fullfile(proj_root, parm.act_file);
 area_file   = fullfile(proj_root, parm.area_file);
-keys_postfix = parm.keys_postfix; 
+% keys_postfix = parm.keys_postfix; 
 
 % function mode
 Tthres  = parm.Tthres;      % important parameters
@@ -94,8 +94,8 @@ end
 %--------------------------
 % Save project file
 %--------------------------
-proj_file = get_project_filename;
-if ~isempty(proj_file)
-    project_file_mgr('load', proj_file);
-    project_file_mgr('add', 'fmri_parm', parm);
-end
+% proj_file = get_project_filename;
+% if ~isempty(proj_file)
+%     project_file_mgr('load', proj_file);
+%     project_file_mgr('add', 'fmri_parm', parm);
+% end
